@@ -2,15 +2,17 @@ import styled from 'styled-components'
 
 export const ContainerPrinciples = styled.section`
   width: 100%;
-  height: max-content;
+  height: 45rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding: 6rem 4rem;
-
   background-color: ${({ theme }) => theme.colors['bg-home']};
+
+  @media (max-width: 1024px) {
+    height: max-content;
+  }
 
   @media (max-width: 768px) {
     padding: 6rem 0;
@@ -36,21 +38,19 @@ export const Line = styled.div`
 `
 
 export const ContainerCards = styled.div`
+  width: 100%;
+  max-height: max-content;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
   justify-content: center;
-  gap: 6rem;
+  gap: 2rem;
 
-  margin-top: 1rem;
-
-  @media (max-width: 768px) {
-    gap: 0;
-  }
+  margin-top: 4rem;
 `
 
 export const Cards = styled.div`
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;

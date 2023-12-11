@@ -58,7 +58,7 @@ export const SectionAbout = () => {
 
       <ContainerImages data-aos="fade-left" data-aos-duration="1000">
         <ContentImage data-aos="fade-up" data-aos-duration="1500">
-          <Image src={ImgPoster} />
+          <Image src={ImgPoster} alt="" />
         </ContentImage>
       </ContainerImages>
     </ContainerAbout>

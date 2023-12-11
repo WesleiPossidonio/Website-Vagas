@@ -13,6 +13,10 @@ export const ContainerContact = styled.section`
   gap: 0.5rem;
 
   background-color: ${({ theme }) => theme.colors['bg-home']};
+
+  @media (max-width: 768px) {
+    padding: 5rem 1.5rem;
+  }
 `
 export const ContentContact = styled.div`
   width: 100%;

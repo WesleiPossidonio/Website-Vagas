@@ -47,6 +47,7 @@ export const Span = styled.span`
 `
 
 export const ContainerImages = styled.div`
+  width: 50%;
   height: 22rem;
 
   display: flex;
@@ -84,6 +85,7 @@ export const ContentImage = styled.div`
 export const Image = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `
 
 export const AboutText = styled.div`

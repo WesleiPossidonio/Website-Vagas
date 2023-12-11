@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 import Logo from '../../assets/Logo.png'
-import { ContentNav, Header, LinkNav } from './atyled'
+import { ContentNav, Header, LinkNav } from './styled'
 
 export const HeaderHome = () => {
   const [stateBackgroundHeader, setStateBackgroundHeader] =

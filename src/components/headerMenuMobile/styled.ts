@@ -4,7 +4,7 @@ interface ContainerMenuMobileProps {
   stateHeader: boolean
 }
 
-export const ContainerMenuMobile = styled.header<ContainerMenuMobileProps>`
+export const ContainerMenuMobile = styled.div<ContainerMenuMobileProps>`
   width: 100%;
   height: 4rem;
   padding: 1rem;
@@ -47,8 +47,6 @@ export const ContainerMenus = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-
-  overflow: hidden;
 
   z-index: 999;
 
