@@ -8,21 +8,21 @@ export const ContainerPrinciples = styled.section`
   flex-direction: column;
   align-items: center;
 
-  padding: 8rem 4rem;
+  padding: 6rem 4rem;
 
   background-color: ${({ theme }) => theme.colors['bg-home']};
 
   @media (max-width: 768px) {
-    padding: 6rem 3rem;
+    padding: 6rem 0;
   }
 `
 
 export const ContainerTitle = styled.div`
-  max-width: 50%;
   align-self: center;
 
   display: flex;
   flex-direction: column;
+
   gap: 0.5rem;
 
   text-align: center;
@@ -33,21 +33,18 @@ export const Line = styled.div`
   width: 7rem;
   border-bottom: 3.5px solid ${({ theme }) => theme.colors['base-yellow']};
   align-self: center;
-  margin-bottom: 3rem;
 `
 
 export const ContainerCards = styled.div`
-  width: 100%;
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
   justify-content: center;
   gap: 6rem;
 
   margin-top: 1rem;
 
   @media (max-width: 768px) {
-    gap: 3rem;
+    gap: 0;
   }
 `
 

@@ -2,17 +2,16 @@ import AOS from 'aos'
 import { useEffect } from 'react'
 
 import ImgPoster from '../../../../assets/imgVideo.jpg'
-import VideoAbout from '../../../../assets/videoAbout.mp4'
 import { TextRegular, TitleText } from '../../../../components/typograph'
 import {
   AboutText,
   ContainerAbout,
   ContainerImages,
+  ContentImage,
   ContentText,
-  ContentVideo,
+  Image,
   LinkAbout,
   Span,
-  Video,
 } from './styled'
 
 export const SectionAbout = () => {
@@ -58,11 +57,9 @@ export const SectionAbout = () => {
       </ContentText>
 
       <ContainerImages data-aos="fade-left" data-aos-duration="1000">
-        <ContentVideo data-aos="fade-up" data-aos-duration="1500">
-          <Video controls muted poster={ImgPoster}>
-            <source src={VideoAbout} type="video/mp4" />
-          </Video>
-        </ContentVideo>
+        <ContentImage data-aos="fade-up" data-aos-duration="1500">
+          <Image src={ImgPoster} />
+        </ContentImage>
       </ContainerImages>
     </ContainerAbout>
   )

@@ -6,12 +6,11 @@ import { SectionHome } from './components/HomeSection'
 import { SectionAbout } from './components/SectionAbout'
 import { SectionContact } from './components/SectionContact'
 import { SectionMeetings } from './components/SectionMeetings'
-import { SectionPrinciples } from './components/SectionPrinciples'
-import { ContainerHome } from './styled'
+import { SectionPrinciples } from './SectionPrinciples'
 
 export const Home = () => {
   return (
-    <ContainerHome>
+    <>
       <HeaderHome />
       <HeaderHomeMobile />
       <SectionHome />
@@ -21,6 +20,6 @@ export const Home = () => {
       <SectionMeetings />
       <SectionContact />
       <Footer />
-    </ContainerHome>
+    </>
   )
 }

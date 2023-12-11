@@ -17,6 +17,10 @@ export const ContainerAbout = styled.section`
     flex-wrap: wrap;
     padding: 6rem 2rem;
   }
+
+  @media (max-width: 600px) {
+    padding: 6rem 1.5rem;
+  }
 `
 export const ContentText = styled.div`
   max-width: 50%;
@@ -43,7 +47,6 @@ export const Span = styled.span`
 `
 
 export const ContainerImages = styled.div`
-  width: 39rem;
   height: 22rem;
 
   display: flex;
@@ -63,13 +66,11 @@ export const ContainerImages = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 90%;
-    height: 13.2rem;
-    margin-left: 1.2rem;
+    display: none;
   }
 `
 
-export const ContentVideo = styled.div`
+export const ContentImage = styled.div`
   width: 100%;
   height: 100%;
 
@@ -78,14 +79,9 @@ export const ContentVideo = styled.div`
   right: 2.2rem;
 
   background-color: ${({ theme }) => theme.colors['bg-secundary']};
-
-  > video source {
-    border: none;
-    border-radius: 8px;
-  }
 `
 
-export const Video = styled.video`
+export const Image = styled.img`
   width: 100%;
   height: 100%;
 `

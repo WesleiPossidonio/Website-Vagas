@@ -2,7 +2,7 @@ import { Lightbulb, SketchLogo, Target } from '@phosphor-icons/react'
 import AOS from 'aos'
 import { useEffect } from 'react'
 
-import { TextRegular, TitleText } from '../../../../components/typograph'
+import { TextRegular, TitleText } from '../../../components/typograph'
 import {
   Cards,
   ContainerCards,
