@@ -6,7 +6,7 @@ import { SectionHome } from './components/HomeSection'
 import { SectionAbout } from './components/SectionAbout'
 import { SectionContact } from './components/SectionContact'
 import { SectionMeetings } from './components/SectionMeetings'
-import { SectionPrinciples } from './SectionPrinciples'
+import { SectionPrinciples } from './components/SectionPrinciples'
 
 export const Home = () => {
   return (

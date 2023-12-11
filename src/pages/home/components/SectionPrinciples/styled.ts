@@ -12,9 +12,6 @@ export const ContainerPrinciples = styled.section`
 
   @media (max-width: 1024px) {
     height: max-content;
-  }
-
-  @media (max-width: 768px) {
     padding: 6rem 0;
   }
 `
